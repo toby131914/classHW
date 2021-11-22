@@ -20,3 +20,8 @@
 .ver {
   font-size: 20px;
 }
+
+.link{
+  color: #ff0000;
+  text-decoration:none;
+}

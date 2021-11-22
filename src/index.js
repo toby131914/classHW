@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from "react-router-dom";
 import './index.css';
 import App from './App';
-import Splash from "./pages/Splash";
-import Login from "./pages/Login";
 
 ReactDOM.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    {/* <Splash /> */}
-    <Login />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById('root')
 );
