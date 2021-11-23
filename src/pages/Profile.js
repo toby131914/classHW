@@ -1,3 +1,4 @@
+import Switch from "../components/Switch";
 import './Profile.css';
 
 import user from "../assets/img/user.png";
@@ -13,6 +14,7 @@ function Profile() {
         />
         <span className="title">Steve Jobs</span>
         <span className="description">Steve's visions have changed the way we live</span>
+        <Switch />
       </div>
     </div>
   );

@@ -1,0 +1,62 @@
+.Switch {
+  /* background-color: blueviolet; */
+  position: absolute;
+  width: 100vw;
+  height: 50vh;
+  /* left: calc(50% - 200px); */
+  top: calc(30% + 180px);
+}
+
+.btnPosts {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: calc(50% - 150px);
+  top: calc(50% - 50px / 2 - 150px);
+}
+.btnMap {
+  position: absolute;
+  width: 148px;
+  height: 48px;
+  left: calc(50%);
+  top: calc(50% - 48px / 2 - 150px);
+}
+.btnBG {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: calc(50% - 150px);
+  top: calc(50% - 50px / 2 - 150px);
+
+  background: #f6f6f6;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border-color: #e8e8e8;
+  border-width: 2px;
+  border-style: solid;
+
+  font-weight: 600;
+  font-size: 20px;
+  color: #bdbdbd;
+}
+.selected {
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border-color: #e8e8e8;
+  border-width: 2px;
+  border-style: solid;
+
+  font-weight: 600;
+  font-size: 20px;
+  color: #5db075;
+}
+.unselected {
+  background: #f6f6f6;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+  font-weight: 600;
+  font-size: 20px;
+  color: #bdbdbd;
+}
