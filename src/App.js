@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Splash from "./pages/Splash";
 import Login from "./pages/Login";
+import Profile from "./pages/Profile";
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="splash" element={<Splash />} />
         <Route path="login" element={<Login />} />
+        <Route path="profile" element={<Profile />} />
       </Routes>
     </div>
   );

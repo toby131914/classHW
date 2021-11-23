@@ -1,0 +1,61 @@
+.Profile {
+  background-color: #ffffff;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #000000;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: #5DB075;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #ffffff;
+
+  min-height: 30vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: calc(50% - 50px);
+  top: calc(30% + 10px);
+  border-radius: 100px;
+}
+.title{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  left: calc(50% - 200px);
+  top: calc(30% + 120px);
+  color: #000000;
+}
+.description{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  left: calc(50% - 200px);
+  top: calc(30% + 150px);
+  font-size: 15px;
+  color: #000000;
+
+}
