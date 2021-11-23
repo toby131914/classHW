@@ -21,7 +21,7 @@
   font-size: 20px;
 }
 
-.link{
-  color: #ff0000;
+.title-link{
+  color: #ff0000 !important;
   text-decoration:none;
 }

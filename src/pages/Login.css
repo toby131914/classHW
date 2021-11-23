@@ -69,3 +69,8 @@
   font-size: 20px;
   color: #ffffff;
 }
+
+.login-link{
+  color: #ffffff;
+  text-decoration:none;
+}
