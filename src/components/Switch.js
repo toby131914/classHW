@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PostList from "./PostList";
 import './Switch.css';
 
 function Switch() {
@@ -6,17 +7,21 @@ function Switch() {
 
   return (
     <div className="Switch">
-      <div className="btnBG"></div>
       {isPosts ?
-        <>
-          <div className="btnPosts selected">Posts</div>
-          <div className="btnMap unselected" onClick={()=>setIsPosts(false)}>Map</div>
-        </>
+        <div>
+          <div className="btns">
+            <div className="btnBG"></div>
+            <div className="btnPosts selected">Posts</div>
+            <div className="btnMap unselected" onClick={() => setIsPosts(false)}>Map</div>
+          </div>
+          <PostList />
+        </div>
         :
-        <>
-          <div className="btnPosts unselected" onClick={()=>setIsPosts(true)}>Posts</div>
+        <div  className="btns">
+          <div className="btnBG"></div>
+          <div className="btnPosts unselected" onClick={() => setIsPosts(true)}>Posts</div>
           <div className="btnMap selected">Map</div>
-        </>
+        </div>
       }
     </div>
   );

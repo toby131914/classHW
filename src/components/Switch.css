@@ -1,62 +1,51 @@
 .Switch {
-  /* background-color: blueviolet; */
-  position: absolute;
-  width: 100vw;
-  height: 50vh;
-  /* left: calc(50% - 200px); */
-  top: calc(30% + 180px);
 }
-
+.btns {
+  position: relative;
+  height: 50px;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
 .btnPosts {
   position: absolute;
+  box-sizing: border-box;
   width: 150px;
   height: 50px;
   left: calc(50% - 150px);
-  top: calc(50% - 50px / 2 - 150px);
+  top: 0;
+  line-height: 40px;
 }
 .btnMap {
   position: absolute;
-  width: 148px;
-  height: 48px;
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
   left: calc(50%);
-  top: calc(50% - 48px / 2 - 150px);
+  top: 0px;
+  line-height: 40px;
 }
 .btnBG {
   position: absolute;
+  box-sizing: border-box;
   width: 300px;
   height: 50px;
   left: calc(50% - 150px);
-  top: calc(50% - 50px / 2 - 150px);
+  top: 0;
 
   background: #f6f6f6;
-  box-sizing: border-box;
   border-radius: 100px;
-  border-color: #e8e8e8;
-  border-width: 2px;
-  border-style: solid;
-
-  font-weight: 600;
-  font-size: 20px;
-  color: #bdbdbd;
+  border: 2px solid #e8e8e8;
 }
 .selected {
   background: #ffffff;
-  box-sizing: border-box;
   border-radius: 100px;
-  border-color: #e8e8e8;
-  border-width: 2px;
-  border-style: solid;
-
-  font-weight: 600;
-  font-size: 20px;
+  border: 2px solid #e8e8e8;
   color: #5db075;
 }
 .unselected {
   background: #f6f6f6;
-  box-sizing: border-box;
   border-radius: 100px;
-
-  font-weight: 600;
-  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0);
   color: #bdbdbd;
 }

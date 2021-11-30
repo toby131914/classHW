@@ -1,0 +1,16 @@
+.PostListItem {
+  color: #000;
+}
+.item-img{
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+}
+
+.item-header{
+  font-size: 10px;
+}
+.item-content{
+  font-size: 20px;
+  text-align: left;
+}
