@@ -5,13 +5,13 @@ function Login() {
   return (
     <div className="Login">
       Login
-      <button className="btnGoogle">
+      <button className="Google-bg Login-btn">
       <Link to="/profile" className="login-link">
       Google
       </Link>
       </button>
-      <button className="btnLine">LINE</button>
-      <button className="btnFB">Facebook</button>
+      <button className="Line-bg Login-btn">LINE</button>
+      <button className="FB-bg Login-btn">Facebook</button>
     </div>
   );
 }

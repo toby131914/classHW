@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       {/* <h1>Welcome to DIRS</h1> */}
       <Routes>
-        <Route path="splash" element={<Splash />} />
+        <Route path="/" element={<Splash />} />
         <Route path="login" element={<Login />} />
         <Route path="profile" element={<Profile />} />
       </Routes>
