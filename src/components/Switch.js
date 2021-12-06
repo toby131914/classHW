@@ -10,17 +10,17 @@ function Switch() {
       {isPosts ?
         <div>
           <div className="btns">
-            <div className="btnBG"></div>
-            <div className="btnPosts selected">Posts</div>
-            <div className="btnMap unselected" onClick={() => setIsPosts(false)}>Map</div>
+            <div className="btn btnBG"></div>
+            <div className="btn btnPosts selected">Posts</div>
+            <div className="btn btnMap unselected" onClick={() => setIsPosts(false)}>Map</div>
           </div>
           <PostList />
         </div>
         :
         <div  className="btns">
-          <div className="btnBG"></div>
-          <div className="btnPosts unselected" onClick={() => setIsPosts(true)}>Posts</div>
-          <div className="btnMap selected">Map</div>
+          <div className="btn btnBG"></div>
+          <div className="btn btnPosts unselected" onClick={() => setIsPosts(true)}>Posts</div>
+          <div className="btn btnMap selected">Map</div>
         </div>
       }
     </div>

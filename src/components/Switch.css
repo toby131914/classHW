@@ -7,45 +7,34 @@
   font-weight: 600;
   font-size: 20px;
 }
-.btnPosts {
+.btn{
   position: absolute;
   box-sizing: border-box;
-  width: 150px;
+  border-radius: 100px;
   height: 50px;
-  left: calc(50% - 150px);
   top: 0;
   line-height: 40px;
+}
+.btnPosts {
+  width: 150px;
+  left: calc(50% - 150px);
 }
 .btnMap {
-  position: absolute;
-  box-sizing: border-box;
   width: 150px;
-  height: 50px;
   left: calc(50%);
-  top: 0px;
-  line-height: 40px;
 }
 .btnBG {
-  position: absolute;
-  box-sizing: border-box;
-  width: 300px;
-  height: 50px;
-  left: calc(50% - 150px);
-  top: 0;
-
   background: #f6f6f6;
-  border-radius: 100px;
+  width: 300px;
+  left: calc(50% - 150px);
   border: 2px solid #e8e8e8;
 }
 .selected {
   background: #ffffff;
-  border-radius: 100px;
-  border: 2px solid #e8e8e8;
   color: #5db075;
+  border: 2px solid #e8e8e8;
 }
 .unselected {
-  background: #f6f6f6;
-  border-radius: 100px;
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
   color: #bdbdbd;
 }

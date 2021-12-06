@@ -3,7 +3,7 @@ import './Login.css';
 
 function Login() {
   return (
-    <div className="Login">
+    <div className="Login flex-col">
       Login
       <button className="Google-bg Login-btn">
       <Link to="/profile" className="login-link">
