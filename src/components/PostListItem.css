@@ -1,16 +1,20 @@
 .PostListItem {
   color: #000;
+  justify-content: center;
+  align-items: center;
 }
 .item-img{
   width: 60px;
   height: 60px;
   padding: 20px;
 }
-
 .item-header{
   font-size: 10px;
+  justify-content: space-between;
+  padding: 5px 20px;
 }
 .item-content{
   font-size: 20px;
   text-align: left;
+  padding: 5px 20px;
 }
