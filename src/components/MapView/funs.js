@@ -2,6 +2,7 @@ import {
   Viewer,
   Cartesian3,
   Math,
+  GeoJsonDataSource,
 } from "cesium";
 
 
@@ -23,6 +24,8 @@ export function createView() {
 
   return newViewer;
 }
+
+
 export function flyTo(viewer, duration, longitude, latitude, height, heading, pitch, roll) {
   viewer.camera.flyTo({
     duration: duration,
@@ -33,4 +36,9 @@ export function flyTo(viewer, duration, longitude, latitude, height, heading, pi
       roll: Math.toRadians(roll),
     },
   });
+}
+
+
+export function drawPins(viewer, features) {
+  viewer.dataSources.add(GeoJsonDataSource.load(features));
 }
