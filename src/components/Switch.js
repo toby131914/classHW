@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import PostList from "./PostList";
-import MapView from "./MapView";
+import MapView from "./MapView/MapView";
 import './Switch.css';
 
 function Switch() {
